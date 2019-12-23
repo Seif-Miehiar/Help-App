@@ -1,0 +1,49 @@
+{
+  "name": "help-app",
+  "version": "1.0.0",
+  "description": "A help Desk Application - Full Stack App build with Reactjs-Expressjs-MongoDB for RBK Cohort 1 Tunisia",
+  "main": "index.js",
+  "babel": {
+    "plugins": [
+      "transform-object-rest-spread"
+    ],
+    "presets": [
+      "es2015",
+      "react",
+      "stage-0"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seif-Miehiar/Help-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Seif-Miehiar/Help-App/issues"
+  },
+  "homepage": "https://github.com/Seif-Miehiar/Help-App#readme",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "webpack": "^4.41.4",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "css-loader": "^3.4.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "style-loader": "^1.1.1"
+  }
+}
